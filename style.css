@@ -63,19 +63,23 @@ nav ul{
 .arrow{
   fill:white;
   width:5px;
-  display:inline;
+  display:inline-block;
   padding:0;
   margin:0;
-  transition-property: transform;
+  transition-property: 0;
   transition-duration: 0.5s;
+  animation-iteration-count: infinite;
 }
 
 .arrow:hover{
   transform: rotate(-45deg);
+  transform-origin: 50% 50%;
+ 
 
 }
 
 .home{
   padding-right:0;
   margin-right:0;
+  
 }
