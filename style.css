@@ -78,8 +78,17 @@ nav ul{
 
 }
 
+a{
+  flex-direction:row;
+}
 .home{
-  padding-right:0;
+  display:inline-flex;
+  flex-direction:row;
+  justify-content:space-between;
   margin-right:0;
   
+  
+}
+svg{
+  position: relative;
 }
